@@ -1,0 +1,120 @@
+.feed_wrap {
+
+}
+
+.feed_wrap.type1 .item {
+    position: relative;
+    border: 1px solid #ddd;
+    padding: 20px 0;
+    margin-bottom: 0px;
+}
+
+.feed_wrap.type1 .item .info {
+    padding-left: 120px;
+}
+
+.feed_wrap.type1 .image {
+    position: absolute;
+    top: 15px;
+    left: 30px;
+}
+
+.feed_wrap.type1 .image img {
+    width: 70px;
+    height: 70px;
+}
+
+.feed_wrap.type1 .item .category,
+.feed_wrap.type1 .item .name,
+.feed_wrap.type1 .item .price {
+    display: block;
+}
+
+.feed_wrap.type1 .category {
+    font-size: 1.2rem;
+}
+
+.feed_wrap.type1 .name {
+    margin: 5px 0;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.feed_wrap.type1 .price {
+    font-size: 1.2rem;
+}
+
+.feed_wrap.type1 .bt_more {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    cursor: pointer;
+    width: 24px;
+    height: 19px;
+    border: 0;
+    background: transparent url(/resources/img/bt_more.png) no-repeat 0 0 /24px;
+    text-indent: -10000px;
+    overflow: hidden;
+}
+
+.feed_wrap.type1 .detail {
+    display: none;
+}
+
+
+.feed_wrap.type2 .image {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.feed_wrap.type2 .image img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.feed_wrap.type2 .bt_more {
+        position: absolute;
+        top: 350px;
+        right: 20px;
+        cursor: pointer;
+        width: 24px;
+        height: 19px;
+        border: 0;
+        background: transparent url(/resources/img/bt_more.png) no-repeat 0 0 /24px;
+        text-indent: -10000px;
+        overflow: hidden;
+}
+
+.feed_wrap.type2 .name {
+    margin: 5px 0;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.feed_wrap.type2 .item .category,
+.feed_wrap.type2 .item .name,
+.feed_wrap.type2 .item .price {
+    display: block;
+}
+
+.feed_wrap.type2 .item .info {
+    position: relative;
+}
+.feed_wrap.type2 .category {
+    font-size: 1.5rem;
+}
+
+.feed_wrap.type2 .item .name{
+    font-size: 2.5rem;
+}
+
+.feed_wrap.type2 .item {
+    border: 1px solid #ddd;
+    padding: 20px 20px;
+    border-radius: 20px;
+}
+
+.feed_wrap.type2 .detail {
+    display: none;
+}

@@ -1,0 +1,40 @@
+#wrap {
+
+}
+
+#headerWrap {
+    position: relative;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    background: white;
+    text-align: center;
+}
+
+#headerWrap h1 a img {
+    height: 40px;
+}
+
+#headerWrap > a {
+    position: absolute;
+    top: 30px;
+  
+}
+
+#headerWrap .bt_login {
+    right: 50px;
+}
+
+#headerWrap .bt_write {
+    right: 20px;
+}
+
+#headerWrap > a >img {
+    height: 25px;
+}
+
+#footerWrap {
+    padding: 0px 0;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    font-size: 1.2rem;
+}
